@@ -1,23 +1,12 @@
-# my-notes
+# Reading Notes
 
-# Introduction 
+This website serves as a platform for sharing and storing reading notes for various courses related to software development.
 
-* Hello, My Name is Abdelrahman Saleh and i'm a SE 
+## Code 102 - Intro to Software Development
 
+## Code 201 - Foundations of Software Development
 
-## What I learned from todays lecture
+## Code 301 - Intermediate Software Development
 
-* How to use VCS like git
-* How to make and delete directories and files using git commands.
-*How to clone and push my work from and to mu github account.
+## Code 401 - Advanced Software Development
 
-
-### I had a great time learninig these concepts and i hope for more great lectures 
-:blush:
-:star: 
-:boom: 
-:boom: 
-:fire: 
-:fire:
-
-hiii
