@@ -2,20 +2,11 @@
 
 This website serves as a platform for sharing and storing reading notes for various courses related to software development.
 
-### Code 102 - Intro to Software Development
-- 
-### Code 201 - Foundations of Software Development
--
-
-### Code 301 - Intermediate Software Development
-- 
-
 ### Code 401 - Advanced Software Development
 - 
-
-# [Mindset Prework](#mindset-prework)
-
-## SQL Practice
+# [Readings](Reading.md)
+<!-- # [Mindset Prework](#mindset-prework) -->
+# [sql practice](SQL.md)
 
 - Relational databases are like organized collections of data stored in tables, where each table has rows and columns. These databases use relationships between tables to link related information together.
 
@@ -162,3 +153,8 @@ Pressing the Tab key can help complete directory and file names, saving time and
 ---
 
 *Note: The above notes were adapted to fit the context of the technology industry and its unique challenges and opportunities.*
+
+
+### In what ways can organizations cultivate a culture of empathy and inclusion to address biases and promote diversity effectively?
+
+### What strategies can leaders implement to create a workplace environment where individuals feel empowered to challenge biases, engage in open dialogue, and contribute to a culture of diversity and inclusion?
