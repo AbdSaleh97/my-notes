@@ -1,4 +1,22 @@
-# [Class-1](#class-1)
+# [Class-1](#lets-talk-modular-programming)
+
+# [class-2](#asymptotic-notations)
+
+# Asymptotic notations
+
+The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Let's Talk Modular Programming!
 
