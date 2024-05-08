@@ -1,3 +1,4 @@
+
 # [Class-1](#lets-talk-modular-programming)
 
 # [class-2](#asymptotic-notations)
@@ -5,12 +6,6 @@
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
-
-
-
-
-
-
 
 <br>
 <br>
@@ -63,3 +58,4 @@ The article goes through different examples of recursive functions, like calcula
 Additionally, it covers tail recursion and explains how Python manages recursion with its default limit. It also touches on optimizing recursive functions and real-world scenarios where recursion is super useful.
 
 In a nutshell, this article is a great guide to understanding recursion in Python. It breaks down how it works and gives you practical examples to wrap your head around this fundamental concept in programming.
+
