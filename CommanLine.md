@@ -1,47 +1,103 @@
-# [Class-1](#class-1)
+## The Command Line
 
-## Let's Talk Modular Programming!
+The command line is a text-based interface for interacting with a computer's operating system. It allows users to issue commands to the computer by typing text commands rather than using a graphical interface. The command line provides direct access to the system, enabling users to perform various tasks such as file manipulation, software installation, and system configuration.
 
-The idea here is to break down big programming tasks into smaller, more manageable chunks called modules. This not only makes things simpler but also easier to maintain, reuse, and scope out.
+### How it Works:
 
-## Python Modules
+When a command is entered in the command line interface, it is interpreted by the shell, which is a program that acts as an intermediary between the user and the operating system. The shell parses the command, identifies the executable program associated with it, and then executes the program with any specified options and arguments. After execution, the output of the command is displayed in the terminal window.
 
-Now, diving into Python modules, there are three main ways to define them:
+### Getting started:
 
-1. You can write them in Python itself.
-2. Craft them in C and load them in dynamically.
-3. Use built-in modules that come right along with the interpreter.
+To access the command line on Windows, open Command Prompt or PowerShell from the Start menu or by using keyboard shortcuts like Win + R and typing "cmd" or "powershell".
 
-Once you have a module, you can import its goods using the `import` statement.
+# Linux File System Navigation
 
-## Python Packages
+## File System Hierarchy
 
-Moving on to Python packages - these are like organized sets of modules, neatly arranged under "dotted module names". You can create your own packages, get them up and running, and import various bits and bobs from them, even including subpackages.
+Linux organizes files in a hierarchical structure starting from the root directory (/). Key directories include:
 
-## Technical Details
+- /bin: Binary files
+- /etc: System configuration files
+- /home: User directories
+- /var: Variable data
 
-As for the technical stuff, we've got the module search path that Python uses to hunt down modules, plus how to execute a module as a script. We'll touch on the `dir()` function, which helps scope out what's inside a module, and the ins and outs of reloading a module.
+### Current Directory
+
+You can check your current directory using the pwd command.
+
+### List Contents
+
+Use ls to list the contents of a directory. Options like -l provide detailed information such as permissions, owner, size, and modification time.
+
+### Change Directory
+
+Move to a different directory using cd. Typing cd without arguments takes you to your home directory.
+
+### Relative and Absolute Paths
+
+Paths can be relative (specified from your current directory) or absolute (specified from the root directory). Use . to represent the current directory and .. to represent the parent directory.
+
+### Path Completion
+
+Pressing the Tab key can help complete directory and file names, saving time and reducing typing errors.
 
 
-# Python Testing with pytest
+## Manual Pages:
+  Manual pages, commonly referred to as man pages, are a comprehensive set of documentation in Unix-like operating systems that provide detailed information about various commands, utilities, functions, and file formats. They serve as a vital resource for users to understand the usage and functionality of commands available in the command-line interface.
 
-This article is all about pytest, a solid testing tool for Python that's super popular for testing Python apps. It shows you how to get pytest up and running easily using pip, and it walks you through writing simple test functions the pytest way. The author explains why pytest is better than the built-in `unittest` module, highlighting how straightforward it is and all the cool stuff it can do.
+- **Main Commands Used in the Demo:**
+  1. `man <command>`: Displays the manual page for the specified command, providing detailed information on its usage and options.
+  2. `man -k <search term>`: Performs a keyword search across all manual pages to find commands related to the specified search term.
+  3. `/<term>`: Within a manual page, performs a search for the specified term, allowing users to quickly locate relevant information within the page.
 
-The article dives into fixtures, a key concept in pytest that helps set things up before running tests and lets you share resources between tests. They give examples of fixtures and talk about parameterization to run tests with different inputs.
-
-They also cover some more advanced pytest features like test markers for tagging tests and running specific groups, discovering tests automatically, and using plugins to extend pytest's functionality. They make a point of how pytest plays nicely with other testing tools and frameworks out there.
-
-In a nutshell, this article is a great starting point to get into pytest. It shows off how flexible and easy-to-use pytest is for testing Python code, making it a must-read for developers wanting to step up their testing game.
-
-
+- **Summary:**
+  Manual pages, or man pages, are comprehensive documentation in Unix-like systems providing detailed information about commands, utilities, and functions. Users can access manual pages using the `man` command to view documentation for specific commands or perform keyword searches using `man -k`. The ability to search within manual pages using `/` followed by a term enhances usability, enabling users to quickly find relevant information.
 
 
-# Recursion in Python
+  # Linux Features
 
-This article dives into recursion in Python, which is basically a function calling itself. It breaks down how recursive functions work using examples to show the step-by-step process. The author stresses the importance of having base cases to stop the function from endlessly calling itself.
+## Linux is an Extensionless System
+- Linux ignores file extensions to determine file types.
+- Unlike Windows, where extensions are crucial for file identification.
+- Use the `file` command to identify file types regardless of their extensions.
 
-The article goes through different examples of recursive functions, like calculating factorial and the Fibonacci series, and even how to do a recursive binary search. It talks about when recursion is a good idea versus when it might not be the most efficient approach.
+## Linux is Case Sensitive
+- Linux distinguishes between uppercase and lowercase letters in filenames.
+- This is different from systems like Windows, which are case-insensitive.
+- Pay attention to letter casing when using commands and referring to files.
 
-Additionally, it covers tail recursion and explains how Python manages recursion with its default limit. It also touches on optimizing recursive functions and real-world scenarios where recursion is super useful.
+## Spaces in Names
+- Spaces in file and directory names can cause issues on the command line.
+- Use quotes or escape characters (`\`) to handle names with spaces.
+  - Example using quotes: `cd 'Holiday Photos'`
+  - Example using escape character: `cd Holiday\ Photos`
 
-In a nutshell, this article is a great guide to understanding recursion in Python. It breaks down how it works and gives you practical examples to wrap your head around this fundamental concept in programming.
+## Hidden Files and Directories
+- Files or directories starting with a dot (`.`) are considered hidden in Linux.
+- Commonly used for configuration files or to prevent cluttering in directory listings.
+- Use `ls -a` to list all files, including hidden ones.
+
+# Basic File and Directory Operations in Linux
+
+## Making a Directory
+- Use `mkdir` to create directories and organize files hierarchically.
+- Understand relative and absolute paths for directory creation.
+
+## Removing a Directory
+- Use `rmdir` to remove empty directories.
+
+## Creating a Blank File
+- The `touch` command creates empty files.
+- It's also used to modify file access and modification times.
+
+## Copying a File or Directory
+- Duplicate files or directories with the `cp` command.
+- Use `-r` for recursive copying of directories.
+
+## Moving a File or Directory
+- The `mv` command moves files or directories.
+- Renaming is accomplished by moving to the same directory with a different name.
+
+## Removing a File (and non-empty Directories)
+- The `rm` command deletes files and directories.
+- Use `-r` for recursive removal of non-empty directories.
