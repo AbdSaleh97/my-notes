@@ -3,6 +3,8 @@
 
 # [class-2](#asymptotic-notations)
 
+# [class-5](#fixtures)
+
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
@@ -55,3 +57,24 @@ Additionally, it covers tail recursion and explains how Python manages recursion
 
 
 In a nutshell, this article is a great guide to understanding recursion in Python. It breaks down how it works and gives you practical examples to wrap your head around this fundamental concept in programming.
+
+
+
+## Fixtures
+Fixtures in pytest are like handy tools that help set up resources needed for your tests. They can be used to create and provide data or objects that your tests rely on. For example, if your test needs a specific file or database connection, you can define a fixture to set these up. Fixtures are defined using special functions decorated with `@pytest.fixture`. You can control when fixtures run, like once per test or once per test module.
+
+## Code Coverage
+Code coverage is a way to measure how much of your code is being tested by your test cases. It helps you understand which parts of your code are being exercised by your tests and which parts are not. With `pytest-cov`, a package for pytest, you can generate a coverage report that shows which lines or branches of your code are being executed during testing. This report can guide you to write more comprehensive tests, ensuring that more of your code is validated and reducing the chance of undiscovered bugs.
+
+---
+
+## Classes and Objects
+In Python, classes are like blueprints for creating objects. An object is an instance of a class that bundles together data (variables) and behavior (functions). When you define a class, you define how objects of that class will behave and what data they will hold.
+
+- **Object Creation**: To create an object from a class, you use the class name followed by parentheses. This is called instantiation.
+
+- **Accessing Object Variables**: You can access the data stored in an object's variables using dot notation (`object.variable_name`).
+
+- **Accessing Object Functions (Methods)**: Objects can also contain functions, known as methods. You can call these methods using dot notation (`object.method_name()`).
+
+- **The `__init__` Method**: The `__init__` method is a special method in Python classes that gets called when you create a new object. It initializes the object's state by setting initial values for its attributes.
