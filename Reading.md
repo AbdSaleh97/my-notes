@@ -3,6 +3,8 @@
 
 # [class-2](#asymptotic-notations)
 
+# [class-3](#file-operations-in-python)
+
 # [class-5](#fixtures)
 
 # Asymptotic notations
@@ -78,3 +80,44 @@ In Python, classes are like blueprints for creating objects. An object is an ins
 - **Accessing Object Functions (Methods)**: Objects can also contain functions, known as methods. You can call these methods using dot notation (`object.method_name()`).
 
 - **The `__init__` Method**: The `__init__` method is a special method in Python classes that gets called when you create a new object. It initializes the object's state by setting initial values for its attributes.
+
+
+### File Operations in Python
+
+**Main Points:**
+1. **File Handling Basics**: Python supports file reading and writing.
+2. **Opening a File**: Use `open()` with the file path and mode (e.g., 'r', 'w').
+3. **Reading from a File**: Use `read()`, `readline()`, or `readlines()`.
+4. **Writing to a File**: Use `write()` or `writelines()`.
+5. **Closing a File**: Close files with `close()` to release resources.
+6. **File Modes**: Modes include 'r' (read), 'w' (write), 'a' (append), and 'r+' (read/write).
+7. **Context Manager**: Use `with` to handle files, ensuring they are closed properly.
+
+*Explanation*: File operations are essential for handling data in applications. Python provides simple methods to open, read, write, and close files effectively.
+
+For more details, visit [Programiz - File Operations](https://www.programiz.com/python-programming/file-operation).
+
+### Exception Handling in Python
+
+**Main Points:**
+1. **Introduction to Exceptions**: Errors detected during execution.
+2. **The try-except Block**: Test code for errors with `try`, handle them with `except`.
+3. **Catching Specific Exceptions**: Specify exception types in `except`.
+4. **The else Clause**: Runs if no exceptions occur.
+5. **The finally Clause**: Runs cleanup code regardless of what happens.
+
+*Explanation*: Exception handling ensures your program can gracefully handle unexpected errors. Using `try`, `except`, `else`, and `finally` blocks helps manage exceptions effectively.
+
+For more information, check [Programiz - Exception Handling](https://www.programiz.com/python-programming/exception-handling).
+
+### Python Try Except 
+
+**Main Points:**
+1. **Basic Syntax**: Use `try` to test code and `except` to handle errors.
+2. **Multiple Exceptions**: Catch different errors with multiple `except` blocks.
+3. **The else and finally Clauses**: `else` runs if no errors occur; `finally` always runs.
+4. **Raising Exceptions**: Use `raise` to trigger exceptions manually.
+
+*Explanation*: The `try` and `except` blocks are fundamental for handling errors in Python. They allow you to specify what to do when an error occurs, keeping your program running smoothly.
+
+For more details, visit [W3Schools - Python Try Except](https://www.w3schools.com/python/python_try_except.asp).
