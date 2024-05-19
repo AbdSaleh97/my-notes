@@ -5,6 +5,8 @@
 
 # [class-3](#file-operations-in-python)
 
+# [class-4](#data-structures)
+
 # [class-5](#fixtures)
 
 # Asymptotic notations
@@ -121,3 +123,31 @@ For more information, check [Programiz - Exception Handling](https://www.program
 *Explanation*: The `try` and `except` blocks are fundamental for handling errors in Python. They allow you to specify what to do when an error occurs, keeping your program running smoothly.
 
 For more details, visit [W3Schools - Python Try Except](https://www.w3schools.com/python/python_try_except.asp).
+
+
+
+### Data Structures 
+
+**Main Points:**
+1. **Definition and Importance**: Data structures are ways to store and organize data to facilitate access and modifications.
+2. **Types of Data Structures**: Includes arrays, linked lists, stacks, queues, trees, and graphs.
+3. **Linear vs Non-linear**: Linear structures (arrays, linked lists) have a sequential order, whereas non-linear structures (trees, graphs) do not.
+4. **Operations**: Basic operations include insertion, deletion, traversal, searching, and sorting.
+5. **Complexity**: Efficiency of operations measured by time and space complexity.
+
+*Explanation*: Data structures are crucial for efficient data management and algorithm implementation. Understanding different types and their operations helps in selecting the right structure for a specific problem.
+
+For more information, check [GeeksforGeeks - Data Structures](https://www.geeksforgeeks.org/data-structures/).
+
+### Linked List
+
+**Main Points:**
+1. **Definition**: A linked list is a linear data structure where elements are stored in nodes, each pointing to the next node.
+2. **Types**: Includes singly linked lists, doubly linked lists, and circular linked lists.
+3. **Advantages**: Dynamic size and efficient insertion/deletion compared to arrays.
+4. **Disadvantages**: Higher memory usage due to storage of pointers and slower access time.
+5. **Basic Operations**: Includes traversal, insertion, deletion, and searching within the list.
+
+*Explanation*: Linked lists provide flexibility with dynamic memory allocation, making them useful for applications where size changes frequently. Understanding their types and operations is fundamental for effective use.
+
+For more information, visit [GeeksforGeeks - What is Linked List](https://www.geeksforgeeks.org/what-is-linked-list/).
