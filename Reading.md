@@ -9,6 +9,8 @@
 
 # [class-5](#fixtures)
 
+# [class-9](#read09)
+
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
@@ -151,3 +153,44 @@ For more information, check [GeeksforGeeks - Data Structures](https://www.geeksf
 *Explanation*: Linked lists provide flexibility with dynamic memory allocation, making them useful for applications where size changes frequently. Understanding their types and operations is fundamental for effective use.
 
 For more information, visit [GeeksforGeeks - What is Linked List](https://www.geeksforgeeks.org/what-is-linked-list/).
+
+
+### Read09
+
+#### 1. [Enum in Python (GeeksforGeeks)](https://www.geeksforgeeks.org/enum-in-python/)
+
+This article explains the `enum` module in Python, which allows the creation of enumerations, a set of symbolic names bound to unique, constant values. It covers:
+- **Definition and Usage**: Enums provide a way to define groups of related constants and improve code readability.
+- **Creating Enums**: How to create enums using the `Enum` class.
+- **Accessing Enums**: Different ways to access the enum members and their values.
+- **Iteration and Comparison**: How to iterate over enum members and compare them.
+- **Enum Methods**: Various methods provided by the `enum` module such as `name`, `value`, and the use of `auto()` for automatic value assignment.
+- **Applications**: Practical uses of enums in scenarios like representing days of the week, directions, etc.
+
+#### 2. [Python Design Patterns (GeeksforGeeks)](https://www.geeksforgeeks.org/python-design-patterns/)
+
+This article introduces design patterns in Python, which are standard solutions to common problems in software design. It includes:
+- **Definition**: Explanation of design patterns as best practices used to solve common design issues.
+- **Types of Design Patterns**: An overview of three main categories:
+  - **Creational Patterns**: Deal with object creation mechanisms (e.g., Singleton, Factory).
+  - **Structural Patterns**: Deal with object composition and relationships (e.g., Adapter, Composite).
+  - **Behavioral Patterns**: Deal with object interaction and responsibility distribution (e.g., Observer, Strategy).
+- **Examples**: Code examples illustrating how each type of pattern can be implemented in Python.
+
+#### 3. [YouTube Video: "Python Design Patterns"](https://youtu.be/pTB30aXS77U)
+
+This YouTube video provides a tutorial on design patterns in Python, covering:
+- **Introduction to Design Patterns**: Explanation of why design patterns are important in software development.
+- **Common Design Patterns**:
+  - **Singleton Pattern**: Ensures a class has only one instance and provides a global point of access.
+  - **Factory Pattern**: Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+  - **Observer Pattern**: A way for an object to notify other objects about changes to its state.
+  - **Strategy Pattern**: Enables selecting an algorithm at runtime.
+- **Implementation in Python**: Code walkthroughs of each design pattern, demonstrating how they can be implemented in Python.
+- **Advantages**: Discusses the benefits of using design patterns, such as improved code maintainability and reusability.
+
+### Summary
+
+- **Enums in Python**: Enums allow grouping of related constants with symbolic names for better code readability and management.
+- **Python Design Patterns (Article)**: Overview of creational, structural, and behavioral design patterns with examples in Python.
+- **Python Design Patterns (Video)**: Tutorial on implementing common design patterns (Singleton, Factory, Observer, Strategy) in Python, highlighting their importance and benefits.
