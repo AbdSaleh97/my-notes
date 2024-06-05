@@ -13,6 +13,8 @@
 
 # [class-10](#exploring-data-science-resources)
 
+# [class-15](#read-15)
+
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
@@ -213,3 +215,14 @@ Alongside platforms like Kaggle, foundational Python libraries such as NumPy and
 
 Together, these resources exemplify the democratization of data science, empowering students and professionals from diverse backgrounds to unlock the potential of data for impactful insights and innovations.
 
+## read-15
+
+### Real Python explains how to use Tkinter for creating Python GUIs, focusing on adding, positioning, and customizing widgets.
+
+### Python Tutorial covers the Tkinter grid layout manager, detailing its usage, configuration, and best practices for complex layouts.
+
+### Indeed provides a broad overview of GUIs, discussing their definition, history, components, advantages, and examples, as well as their importance in software development and IT careers.
+
+### The main idea
+
+The Real Python article focuses on using Tkinter to create GUIs in Python, highlighting how to add, position, and customize widgets. The Python Tutorial emphasizes the grid layout manager in Tkinter, offering detailed instructions on its use and configuration. The Indeed article provides an overview of GUIs, explaining their definition, history, key components, advantages, and relevance in tech careers. Together, these sources offer a comprehensive understanding of GUI development with Tkinter and the broader significance of GUIs in technology.
