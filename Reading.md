@@ -15,6 +15,8 @@
 
 # [class-15](#read-15)
 
+# [class-16](#serverless-computing)
+
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
@@ -226,3 +228,12 @@ Together, these resources exemplify the democratization of data science, empower
 ### The main idea
 
 The Real Python article focuses on using Tkinter to create GUIs in Python, highlighting how to add, position, and customize widgets. The Python Tutorial emphasizes the grid layout manager in Tkinter, offering detailed instructions on its use and configuration. The Indeed article provides an overview of GUIs, explaining their definition, history, key components, advantages, and relevance in tech careers. Together, these sources offer a comprehensive understanding of GUI development with Tkinter and the broader significance of GUIs in technology.
+
+
+# Serverless Computing
+
+Serverless computing, also known as Function-as-a-Service (FaaS), is a cloud-computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. In this model, developers write functions that are triggered by events, allowing them to focus solely on code without worrying about server management. Serverless architectures can handle various backend services on a per-request basis, which can lead to cost savings since billing is based on actual usage rather than pre-purchased capacity.
+
+The serverless model offers several benefits, including simplified scalability, faster deployment times, and reduced operational complexity. Popular platforms for serverless computing include AWS Lambda, Google Cloud Functions, and Azure Functions. These services abstract the underlying infrastructure, allowing developers to build and deploy applications more efficiently.
+
+Examples of serverless use cases include running API backends, handling HTTP requests, processing data streams, and executing scheduled tasks. By adopting serverless architectures, developers can achieve a more modular and efficient development process, focusing on writing code and deploying new features rapidly.
