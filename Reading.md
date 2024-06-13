@@ -16,6 +16,7 @@
 # [class-15](#read-15)
 
 # [class-16](#serverless-computing)
+# [class-17](#beautiful-soup)
 
 # Asymptotic notations
 
@@ -237,3 +238,13 @@ Serverless computing, also known as Function-as-a-Service (FaaS), is a cloud-com
 The serverless model offers several benefits, including simplified scalability, faster deployment times, and reduced operational complexity. Popular platforms for serverless computing include AWS Lambda, Google Cloud Functions, and Azure Functions. These services abstract the underlying infrastructure, allowing developers to build and deploy applications more efficiently.
 
 Examples of serverless use cases include running API backends, handling HTTP requests, processing data streams, and executing scheduled tasks. By adopting serverless architectures, developers can achieve a more modular and efficient development process, focusing on writing code and deploying new features rapidly.
+
+
+## **Beautiful Soup:**
+[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files. It helps parse HTML content, navigate the parse tree, and extract useful information from web pages. It's commonly used in web scraping projects to gather data from websites.
+
+**Web Scraping:**
+[Web scraping](https://www.parsehub.com/blog/what-is-web-scraping/) is the process of extracting data from websites. It involves accessing the HTML structure of a webpage and retrieving specific information, such as text, images, or links. Web scraping can be done manually or using automated tools and is often employed for various purposes like market research, price monitoring, or data analysis.
+
+**YouTube Tutorial:**
+[This YouTube video](https://www.youtube.com/watch?v=Bg9r_yLk7VY) provides a tutorial on web scraping using Python's Beautiful Soup library. It covers topics like installing Beautiful Soup, navigating HTML documents, finding and extracting data, and handling errors. The tutorial offers practical examples and demonstrates how to scrape data from web pages effectively using Python.
