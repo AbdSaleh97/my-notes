@@ -16,7 +16,10 @@
 # [class-15](#read-15)
 
 # [class-16](#serverless-computing)
+
 # [class-17](#beautiful-soup)
+
+# [class-19](#cryptography)
 
 # Asymptotic notations
 
@@ -248,3 +251,10 @@ Examples of serverless use cases include running API backends, handling HTTP req
 
 **YouTube Tutorial:**
 [This YouTube video](https://www.youtube.com/watch?v=Bg9r_yLk7VY) provides a tutorial on web scraping using Python's Beautiful Soup library. It covers topics like installing Beautiful Soup, navigating HTML documents, finding and extracting data, and handling errors. The tutorial offers practical examples and demonstrates how to scrape data from web pages effectively using Python.
+
+
+
+# Cryptography
+Cryptography is a vital field in cybersecurity dedicated to protecting information by transforming it into an unreadable format, which can only be decoded by authorized parties. Key techniques in cryptography include symmetric and asymmetric encryption. Symmetric encryption uses a single key for both encryption and decryption, while asymmetric encryption employs a pair of keys—a public key for encryption and a private key for decryption. Hashing, another critical component, involves creating unique, fixed-size hash values from data inputs, ensuring data integrity and authentication without revealing the original data.
+
+Modern cryptography faces challenges such as effective key management and the looming threat of quantum computing, which has the potential to break current encryption algorithms. Proper key management is essential for maintaining security, usability, performance, compatibility, and cost-effectiveness of encryption systems. Additionally, advancements in cryptographic methods are required to stay ahead of evolving threats.
