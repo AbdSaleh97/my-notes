@@ -21,6 +21,9 @@
 
 # [class-19](#cryptography)
 
+# [class-23](#django)
+
+
 # Asymptotic notations
 
 The article explains three main asymptotic notations: Big O, Omega, and Theta, which describe upper, lower, and tight bounds on algorithm performance, respectively. Asymptotic analysis helps predict how algorithms will scale with larger input sizes, aiding in algorithm selection for real-world applications. However, it has limitations, such as not providing exact performance metrics and assuming input size as the sole performance factor. The article emphasizes the significance of asymptotic analysis in comparing algorithm efficiency and selecting appropriate algorithms for specific problems.
@@ -258,3 +261,8 @@ Examples of serverless use cases include running API backends, handling HTTP req
 Cryptography is a vital field in cybersecurity dedicated to protecting information by transforming it into an unreadable format, which can only be decoded by authorized parties. Key techniques in cryptography include symmetric and asymmetric encryption. Symmetric encryption uses a single key for both encryption and decryption, while asymmetric encryption employs a pair of keys—a public key for encryption and a private key for decryption. Hashing, another critical component, involves creating unique, fixed-size hash values from data inputs, ensuring data integrity and authentication without revealing the original data.
 
 Modern cryptography faces challenges such as effective key management and the looming threat of quantum computing, which has the potential to break current encryption algorithms. Proper key management is essential for maintaining security, usability, performance, compatibility, and cost-effectiveness of encryption systems. Additionally, advancements in cryptographic methods are required to stay ahead of evolving threats.
+
+
+
+# django
+ The Django documentation on database models explains how to define the structure and behavior of database tables using Django's ORM. It covers essential concepts like fields, relationships, querying, and model methods. The IBM blog compares SQL and NoSQL databases, highlighting that SQL databases are relational, use structured query language, and are suitable for complex queries and transactions, while NoSQL databases are non-relational, schema-less, and designed for flexibility, scalability, and handling large volumes of unstructured data.
